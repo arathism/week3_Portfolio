@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arathi Munavalli | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <h2 class="logo">SM_A</h2>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#todo">To-Do</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Interactive Feature 1: Dark / Light mode toggle -->
+    <button id="modeToggle" class="mode-btn" title="Toggle dark mode">🌙</button>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <h1>Hi, I'm Arathi Shekhar Munavalli</h1>
+    <p>CSE Student · AGMRCET · VTU</p>
+  </section>
+
+  <!-- ===== TILE GRID ===== -->
+  <main class="tile-grid">
+
+    <!-- ABOUT TILE -->
+    <section id="about" class="tile tile-wide">
+      <h2>About Me</h2>
+      <div class="about-row">
+        <img src="images/profile.jpg" alt="Arathi Shekhar Munavalli" class="profile-photo">
+        <p>I'm a third-year Computer Science and Engineering student passionate about
+           full-stack development, AI-powered applications, and cybersecurity. I enjoy
+           building real-world projects that solve practical problems.</p>
+      </div>
+    </section>
+
+    <!-- SKILLS TILE -->
+    <section id="skills" class="tile">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-box">HTML / CSS</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">React</div>
+        <div class="skill-box">Node.js</div>
+        <div class="skill-box">Python</div>
+        <div class="skill-box">MongoDB</div>
+      </div>
+    </section>
+
+    <!-- TO-DO TILE -->
+    <!-- Interactive Feature 2: To-do list with add/remove -->
+    <section id="todo" class="tile">
+      <h2>Quick To-Do List</h2>
+      <div class="todo-input-row">
+        <input type="text" id="todoInput" placeholder="Add a task...">
+        <button id="addTodoBtn">Add</button>
+      </div>
+      <ul id="todoList" class="todo-list"></ul>
+    </section>
+
+    <!-- CONTACT TILE -->
+    <!-- Interactive Feature 3: Real-time form validation -->
+    <section id="contact" class="tile tile-wide">
+      <h2>Contact Me</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
+            <span class="error-msg" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <span class="error-msg" id="emailError"></span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+          <span class="error-msg" id="messageError"></span>
+        </div>
+
+        <button type="submit" id="submitBtn">Send Message</button>
+        <p id="formSuccess" class="success-msg"></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Arathi Shekhar Munavalli · CSE, VTU</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
