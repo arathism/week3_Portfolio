@@ -4,9 +4,9 @@
 
 This is a personal portfolio website developed using **HTML5, CSS3, and JavaScript**.
 
-The website showcases my profile, technical skills, and contact information. It provides a clean, responsive, and interactive user experience.
+The website showcases my profile, technical skills, and contact information with a clean and responsive user interface.
 
-In Week 3, the project was enhanced by adding **JavaScript functionality**, an interactive To-Do List, theme toggle feature, and improved responsive design.
+In Week 3, the project was enhanced by adding **JavaScript interactivity**, an interactive To-Do List, theme toggle functionality, and improved responsive design.
 
 ---
 
@@ -18,12 +18,12 @@ In Week 3, the project was enhanced by adding **JavaScript functionality**, an i
 - ➕ Add tasks dynamically using user input
 - 🌙 Dark/Light theme toggle
 - 📌 Navigation menu with anchor links
-- 🎨 Gradient header banner
-- 📦 Card-style sections with shadows and rounded corners
+- 🎨 Gradient header design
+- 📦 Card-style layout with shadows and rounded corners
 - ✨ Hover effects on buttons and navigation links
 - 📱 Responsive design for different screen sizes
 - 📩 Contact form with Name, Email, and Message fields
-- Footer section with copyright information
+- Footer with copyright information
 
 ---
 
@@ -58,7 +58,7 @@ week3_Portfolio/
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+1. Clone the repository
 
 ```bash
 git clone https://github.com/arathism/week3_Portfolio.git
@@ -66,13 +66,13 @@ git clone https://github.com/arathism/week3_Portfolio.git
 
 2. Open the project folder.
 
-3. Open `index.html` in any web browser.
+3. Run `index.html` in any browser.
 
 ---
 
 ## 📸 Screenshots
 
-### About Section, Skills and Portfolio Home Page
+### About Section, Skills Section and Home Page
 
 <img src="about.png" width="800">
 
@@ -89,8 +89,8 @@ git clone https://github.com/arathism/week3_Portfolio.git
 - Event Handling
 - Button Click Events
 - User Input Handling
-- Dynamic Element Creation
-- Updating webpage content dynamically
+- Dynamic Content Updates
+- Interactive webpage elements
 
 ---
 
@@ -98,27 +98,27 @@ git clone https://github.com/arathism/week3_Portfolio.git
 
 - Flexbox Layout
 - Responsive Design using Media Queries
-- Linear Gradient Backgrounds
-- Card Design using Box Shadow and Border Radius
+- Gradient Backgrounds
+- Box Shadow
+- Border Radius
 - Hover Effects
-- Margin and Padding for proper spacing
+- Margin and Padding
 
 ---
 
-## 📚 Concepts Learned
+## 📚 Learning Outcomes
 
-- Creating structured webpages using HTML5
-- Styling websites using CSS3
-- Making webpages responsive
-- Connecting HTML, CSS, and JavaScript
-- Implementing interactive features using JavaScript
-- Understanding DOM manipulation and events
+- Learned to create responsive web pages
+- Improved HTML structure and CSS styling skills
+- Implemented JavaScript functionality
+- Understood DOM manipulation and events
+- Built interactive user interface components
 
 ---
 
 ## 📄 Documentation
 
-Complete project documentation including overview, implementation details, screenshots, and learning outcomes is available in:
+Complete project documentation including project overview, implementation details, screenshots, and learning outcomes is available in:
 
 **ARATHI S M.pdf**
 
